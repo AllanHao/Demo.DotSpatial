@@ -43,6 +43,10 @@
     <Reference Include="DotSpatial.GeoAPI">
       <HintPath>Lib\DotSpatial.GeoAPI.dll</HintPath>
     </Reference>
+    <Reference Include="DotSpatial.Plugins.ShapeEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Plugins.ShapeEditor.dll</HintPath>
+    </Reference>
     <Reference Include="DotSpatial.Symbology">
       <HintPath>Lib\DotSpatial.Symbology.dll</HintPath>
     </Reference>
@@ -64,6 +68,7 @@
     <Compile Include="DemoForm.Designer.cs">
       <DependentUpon>DemoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MapControl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DemoForm.resx">
@@ -101,6 +106,45 @@
     <None Include="Data\F_1.shx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Data\L.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\L.prj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\L.qix">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\L.sbn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\L.sbx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\L.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\L.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\P.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\P.prj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\P.sbn">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\P.sbx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\P.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\P.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -113,15 +157,39 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo.DotSpatial.Common\Demo.DotSpatial.Common.csproj">
+    <ProjectReference Include="..\Demo.DotSpatial.Common\Demo.DotGIS.Common.csproj">
       <Project>{456d2e0b-e5c9-4787-aa51-826cf290b67e}</Project>
-      <Name>Demo.DotSpatial.Common</Name>
+      <Name>Demo.DotGIS.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Demo.DotSpatial.Util\Demo.DotSpatial.Util.csproj">
+    <ProjectReference Include="..\Demo.DotSpatial.Util\Demo.DotGIS.Util.csproj">
       <Project>{1db3960f-7763-43ac-b591-febb7d0c87e2}</Project>
-      <Name>Demo.DotSpatial.Util</Name>
+      <Name>Demo.DotGIS.Util</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Lib\DotSpatial.Analysis.dll" />
+    <Content Include="Lib\DotSpatial.Controls.dll" />
+    <Content Include="Lib\DotSpatial.Controls.pdb" />
+    <Content Include="Lib\DotSpatial.Data.dll" />
+    <Content Include="Lib\DotSpatial.Data.Forms.dll" />
+    <Content Include="Lib\DotSpatial.Data.Forms.pdb" />
+    <Content Include="Lib\DotSpatial.Data.pdb" />
+    <Content Include="Lib\DotSpatial.Extensions.dll" />
+    <Content Include="Lib\DotSpatial.GeoAPI.dll" />
+    <Content Include="Lib\DotSpatial.Modeling.Forms.dll" />
+    <Content Include="Lib\DotSpatial.Mono.dll" />
+    <Content Include="Lib\DotSpatial.NetTopologySuite.dll" />
+    <Content Include="Lib\DotSpatial.NTSExtension.dll" />
+    <Content Include="Lib\DotSpatial.NTSExtension.pdb" />
+    <Content Include="Lib\DotSpatial.Plugins.ShapeEditor.dll" />
+    <Content Include="Lib\DotSpatial.Plugins.ShapeEditor.pdb" />
+    <Content Include="Lib\DotSpatial.Projections.dll" />
+    <Content Include="Lib\DotSpatial.Projections.Forms.dll" />
+    <Content Include="Lib\DotSpatial.Serialization.dll" />
+    <Content Include="Lib\DotSpatial.Symbology.dll" />
+    <Content Include="Lib\DotSpatial.Symbology.Forms.dll" />
+    <Content Include="Lib\DotSpatial.Symbology.Forms.pdb" />
+    <Content Include="Lib\log4net.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

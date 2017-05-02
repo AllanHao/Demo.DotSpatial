@@ -43,9 +43,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo.DotSpatial.Common\Demo.DotSpatial.Common.csproj">
+    <ProjectReference Include="..\Demo.DotSpatial.Common\Demo.DotGIS.Common.csproj">
       <Project>{456d2e0b-e5c9-4787-aa51-826cf290b67e}</Project>
-      <Name>Demo.DotSpatial.Common</Name>
+      <Name>Demo.DotGIS.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

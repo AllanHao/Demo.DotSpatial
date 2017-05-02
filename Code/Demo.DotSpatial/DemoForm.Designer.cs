@@ -37,6 +37,8 @@
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tbMsg = new System.Windows.Forms.TextBox();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.lbPosition = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -46,6 +48,7 @@
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -54,7 +57,7 @@
             this.文件ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(863, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1063, 25);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -70,7 +73,7 @@
             this.btnDrawPoint});
             this.toolStrip1.Location = new System.Drawing.Point(0, 25);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(863, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1063, 25);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -93,8 +96,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(863, 409);
-            this.splitContainer1.SplitterDistance = 287;
+            this.splitContainer1.Size = new System.Drawing.Size(1063, 512);
+            this.splitContainer1.SplitterDistance = 247;
             this.splitContainer1.TabIndex = 2;
             // 
             // splitContainer2
@@ -107,8 +110,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.groupBox1);
-            this.splitContainer2.Size = new System.Drawing.Size(572, 409);
-            this.splitContainer2.SplitterDistance = 273;
+            this.splitContainer2.Size = new System.Drawing.Size(812, 512);
+            this.splitContainer2.SplitterDistance = 341;
             this.splitContainer2.TabIndex = 0;
             // 
             // groupBox1
@@ -117,7 +120,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(572, 132);
+            this.groupBox1.Size = new System.Drawing.Size(812, 167);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "输出";
@@ -129,17 +132,33 @@
             this.tbMsg.Multiline = true;
             this.tbMsg.Name = "tbMsg";
             this.tbMsg.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.tbMsg.Size = new System.Drawing.Size(566, 112);
+            this.tbMsg.Size = new System.Drawing.Size(806, 147);
             this.tbMsg.TabIndex = 0;
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lbPosition});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 562);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1063, 22);
+            this.statusStrip1.TabIndex = 3;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // lbPosition
+            // 
+            this.lbPosition.Name = "lbPosition";
+            this.lbPosition.Size = new System.Drawing.Size(0, 17);
             // 
             // DemoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(863, 459);
+            this.ClientSize = new System.Drawing.Size(1063, 584);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.statusStrip1);
             this.Name = "DemoForm";
             this.Text = "地图管理";
             this.Load += new System.EventHandler(this.Demo_Load);
@@ -155,6 +174,8 @@
             this.splitContainer2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -170,6 +191,8 @@
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox tbMsg;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel lbPosition;
     }
 }
 

@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DotSpatial", "Demo.DotSpatial\Demo.DotSpatial.csproj", "{D78133DE-4185-4A5F-A7ED-CB4A4A1104E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DotGIS", "Demo.DotSpatial\Demo.DotGIS.csproj", "{D78133DE-4185-4A5F-A7ED-CB4A4A1104E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DotSpatial.Common", "Demo.DotSpatial.Common\Demo.DotSpatial.Common.csproj", "{456D2E0B-E5C9-4787-AA51-826CF290B67E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DotGIS.Common", "Demo.DotSpatial.Common\Demo.DotGIS.Common.csproj", "{456D2E0B-E5C9-4787-AA51-826CF290B67E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DotSpatial.Util", "Demo.DotSpatial.Util\Demo.DotSpatial.Util.csproj", "{1DB3960F-7763-43AC-B591-FEBB7D0C87E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DotGIS.Util", "Demo.DotSpatial.Util\Demo.DotGIS.Util.csproj", "{1DB3960F-7763-43AC-B591-FEBB7D0C87E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
