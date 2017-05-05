@@ -7,5 +7,10 @@ namespace Demo.DotGIS
 {
     class MapControl : DotSpatial.Controls.Map
     {
+        public MapControl()
+        {
+
+        }
+
     }
 }

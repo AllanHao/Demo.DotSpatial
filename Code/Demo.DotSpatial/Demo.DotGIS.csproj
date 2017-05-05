@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -31,6 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DotSpatial.Analysis, Version=1.7.0.0, Culture=neutral, PublicKeyToken=df3f45fb0fe4cb0c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Analysis.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Compatibility, Version=1.7.0.0, Culture=neutral, PublicKeyToken=094c8fdea7f4a002, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Compatibility.dll</HintPath>
+    </Reference>
     <Reference Include="DotSpatial.Controls">
       <HintPath>Lib\DotSpatial.Controls.dll</HintPath>
     </Reference>
@@ -40,17 +48,51 @@
     <Reference Include="DotSpatial.Data.Forms">
       <HintPath>Lib\DotSpatial.Data.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="DotSpatial.GeoAPI">
-      <HintPath>Lib\DotSpatial.GeoAPI.dll</HintPath>
+    <Reference Include="DotSpatial.Extensions, Version=1.7.0.0, Culture=neutral, PublicKeyToken=4d9e49339a7d240c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Modeling.Forms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=712bef29a31a9354, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Modeling.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Mono, Version=1.7.0.0, Culture=neutral, PublicKeyToken=425ba4de41127026, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Mono.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Plugins.Ribbon, Version=1.4.25.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Plugins.Ribbon.dll</HintPath>
     </Reference>
     <Reference Include="DotSpatial.Plugins.ShapeEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Lib\DotSpatial.Plugins.ShapeEditor.dll</HintPath>
     </Reference>
+    <Reference Include="DotSpatial.Projections, Version=1.7.0.0, Culture=neutral, PublicKeyToken=272632bddd08a38b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Projections.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Projections.Forms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=52099474f11b7ff0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Projections.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Serialization, Version=1.7.0.0, Culture=neutral, PublicKeyToken=441f200f827611e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Serialization.dll</HintPath>
+    </Reference>
     <Reference Include="DotSpatial.Symbology">
       <HintPath>Lib\DotSpatial.Symbology.dll</HintPath>
     </Reference>
+    <Reference Include="DotSpatial.Symbology.Forms, Version=1.7.0.0, Culture=neutral, PublicKeyToken=0544cdeefb662382, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Symbology.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DotSpatial.Topology, Version=1.7.0.0, Culture=neutral, PublicKeyToken=a66b5e9434ca3671, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Lib\DotSpatial.Topology.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -62,17 +104,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DemoForm.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DemoForm.Designer.cs">
-      <DependentUpon>DemoForm.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MapControl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DemoForm.resx">
-      <DependentUpon>DemoForm.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -84,7 +125,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Data\F_1.dbf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -145,6 +188,7 @@
     <None Include="Data\P.shx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Lib\DotSpatial.Data.dll.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -167,7 +211,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Lib\DevExpress.Data.v12.2.dll" />
+    <Content Include="Lib\DevExpress.Printing.v12.2.Core.dll" />
+    <Content Include="Lib\DevExpress.Utils.v12.2.dll" />
+    <Content Include="Lib\DevExpress.XtraBars.v12.2.dll" />
+    <Content Include="Lib\DevExpress.XtraEditors.v12.2.dll" />
+    <Content Include="Lib\DevExpress.XtraGrid.v12.2.dll" />
+    <Content Include="Lib\DevExpress.XtraLayout.v12.2.dll" />
     <Content Include="Lib\DotSpatial.Analysis.dll" />
+    <Content Include="Lib\DotSpatial.Analysis.pdb" />
+    <Content Include="Lib\DotSpatial.Compatibility.dll" />
+    <Content Include="Lib\DotSpatial.Compatibility.pdb" />
     <Content Include="Lib\DotSpatial.Controls.dll" />
     <Content Include="Lib\DotSpatial.Controls.pdb" />
     <Content Include="Lib\DotSpatial.Data.dll" />
@@ -175,21 +229,28 @@
     <Content Include="Lib\DotSpatial.Data.Forms.pdb" />
     <Content Include="Lib\DotSpatial.Data.pdb" />
     <Content Include="Lib\DotSpatial.Extensions.dll" />
-    <Content Include="Lib\DotSpatial.GeoAPI.dll" />
+    <Content Include="Lib\DotSpatial.Extensions.pdb" />
     <Content Include="Lib\DotSpatial.Modeling.Forms.dll" />
+    <Content Include="Lib\DotSpatial.Modeling.Forms.pdb" />
     <Content Include="Lib\DotSpatial.Mono.dll" />
-    <Content Include="Lib\DotSpatial.NetTopologySuite.dll" />
-    <Content Include="Lib\DotSpatial.NTSExtension.dll" />
-    <Content Include="Lib\DotSpatial.NTSExtension.pdb" />
+    <Content Include="Lib\DotSpatial.Mono.pdb" />
+    <Content Include="Lib\DotSpatial.Plugins.Ribbon.dll" />
     <Content Include="Lib\DotSpatial.Plugins.ShapeEditor.dll" />
     <Content Include="Lib\DotSpatial.Plugins.ShapeEditor.pdb" />
     <Content Include="Lib\DotSpatial.Projections.dll" />
     <Content Include="Lib\DotSpatial.Projections.Forms.dll" />
+    <Content Include="Lib\DotSpatial.Projections.Forms.pdb" />
+    <Content Include="Lib\DotSpatial.Projections.pdb" />
     <Content Include="Lib\DotSpatial.Serialization.dll" />
+    <Content Include="Lib\DotSpatial.Serialization.pdb" />
     <Content Include="Lib\DotSpatial.Symbology.dll" />
     <Content Include="Lib\DotSpatial.Symbology.Forms.dll" />
     <Content Include="Lib\DotSpatial.Symbology.Forms.pdb" />
+    <Content Include="Lib\DotSpatial.Symbology.pdb" />
+    <Content Include="Lib\DotSpatial.Topology.dll" />
+    <Content Include="Lib\DotSpatial.Topology.pdb" />
     <Content Include="Lib\log4net.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

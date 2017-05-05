@@ -34,7 +34,7 @@ namespace Demo.DotGIS
         private string shpPName = Application.StartupPath + @"\Data\P.shp";
         private DotSpatial.Controls.Map map;
         private DotSpatial.Controls.Legend legent;
-        List<GeoAPI.Geometries.Coordinate> coorList = new List<GeoAPI.Geometries.Coordinate>();
+     //   List<GeoAPI.Geometries.Coordinate> coorList = new List<GeoAPI.Geometries.Coordinate>();
         static DotSpatial.Plugins.ShapeEditor.AddShapeFunction _addShapeFunction = null;
         static object locker = new object();
 
@@ -150,7 +150,7 @@ namespace Demo.DotGIS
                         for (int i = count - 1; i >= 0; i--)
                         {
                             this.polygonLayer.EditMode = true;
-                            IFeature fea = this.polygonLayer.FeatureSet.Features.ToList().Find((feature) => { return feature.Fid == feaList[i].Fid && feature.FeatureType == feaList[i].FeatureType && feature.Geometry.Area == feaList[i].Geometry.Area; });
+                         IFeature fea = this.polygonLayer.FeatureSet.Features.ToList().Find((feature) => { return feature.Fid == feaList[i].Fid && feature.FeatureType == feaList[i].FeatureType && feature.Geometry.Area == feaList[i].Geometry.Area; });
                             if (fea != null)
                             {
                                 this.polygonLayer.FeatureSet.Features.Remove(feaList[i]);
