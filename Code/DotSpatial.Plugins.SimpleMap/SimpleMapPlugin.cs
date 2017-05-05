@@ -1,6 +1,7 @@
 ﻿using System.Windows.Forms;
 using DotSpatial.Controls;
 using DotSpatial.Controls.Docking;
+using DotSpatial.Plugins.SimpleMap.Properties;
 
 namespace DotSpatial.Plugins.SimpleMap
 {
@@ -34,9 +35,9 @@ namespace DotSpatial.Plugins.SimpleMap
 
         private void ShowMap()
         {
-            _map = new Map {Text = "Map", Name = "map1", Legend = App.Legend};
+            _map = new Map { Text = "Map", Name = "map1", Legend = App.Legend };
             App.Map = _map;
-            App.DockManager.Add(new DockablePanel("kMap", "Map", _map, DockStyle.Fill));
+            App.DockManager.Add(new DockablePanel("kMap", Resource.Map, _map, DockStyle.Fill));
         }
     }
 }

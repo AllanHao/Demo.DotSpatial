@@ -22,7 +22,7 @@ namespace DotSpatial.Plugins.SimpleLegend
 
         private void ShowLegend()
         {
-            var legend1 = new Legend {Text = Resources.Legend};
+            var legend1 = new Legend { Text = Resources.Legend };
             if (App.Map != null)
             {
                 App.Map.Legend = legend1;
