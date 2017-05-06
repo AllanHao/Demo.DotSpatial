@@ -128,13 +128,13 @@
     <value>Resources\NewShapefile.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Move_Vertex" xml:space="preserve">
-    <value>Move Vertex</value>
+    <value>编辑节点</value>
   </data>
   <data name="Add_Shape" xml:space="preserve">
-    <value>Add Shape</value>
+    <value>绘制对象</value>
   </data>
   <data name="New" xml:space="preserve">
-    <value>New</value>
+    <value>新增</value>
   </data>
   <data name="Snapping" xml:space="preserve">
     <value>Snapping</value>

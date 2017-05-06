@@ -35,7 +35,10 @@
             // appManager1
             // 
             this.appManager1.Directories = ((System.Collections.Generic.List<string>)(resources.GetObject("appManager1.Directories")));
+            this.appManager1.DockManager = null;
             this.appManager1.HeaderControl = null;
+            this.appManager1.Legend = null;
+            this.appManager1.Map = null;
             this.appManager1.ProgressHandler = null;
             this.appManager1.ShowExtensionsDialogMode = DotSpatial.Controls.ShowExtensionsDialogMode.MapGlyph;
             // 
@@ -45,7 +48,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1086, 619);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "地图数据编辑演示";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
 
         }

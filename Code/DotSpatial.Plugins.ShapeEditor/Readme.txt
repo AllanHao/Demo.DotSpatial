@@ -1,1 +1,1 @@
-﻿Allow tu create shapes in DotSpatial.
+﻿创建适量对象

@@ -49,7 +49,7 @@
     <Reference Include="DevExpress.XtraEditors.v12.2">
       <HintPath>..\Demo.DotSpatial\Lib\DevExpress.XtraEditors.v12.2.dll</HintPath>
     </Reference>
-    <Reference Include="DotSpatial.Controls">
+    <Reference Include="DotSpatial.Controls, Version=1.7.0.0, Culture=neutral, PublicKeyToken=4d9e49339a7d240c, processorArchitecture=MSIL">
       <HintPath>..\Demo.DotSpatial\Lib\DotSpatial.Controls.dll</HintPath>
       <Private>False</Private>
     </Reference>

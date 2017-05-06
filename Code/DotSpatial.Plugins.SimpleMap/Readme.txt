@@ -1,1 +1,2 @@
-﻿Plugin which adds basic map control to the DockManager.
+﻿向APPManager的DockManager中添加地图控件
+新增了日志输出TextBox

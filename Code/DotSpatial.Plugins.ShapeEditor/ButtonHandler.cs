@@ -176,7 +176,7 @@ namespace DotSpatial.Plugins.ShapeEditor
                 if (_moveVertexFunction != null) { _moveVertexFunction.DeselectFeature(); }
                 return;
             }
-            
+
             _activeLayer = e.Layer as IFeatureLayer;
             if (_activeLayer == null) { return; }
 
@@ -211,7 +211,11 @@ namespace DotSpatial.Plugins.ShapeEditor
             {
                 _activeLayer = _geoMap.Layers.SelectedLayer as IFeatureLayer;
             }
-            if (_activeLayer == null) { return; }
+            if (_activeLayer == null)
+            {
+                MessageBox.Show("请选中有效图层。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
 
             if (_addShapeFunction == null)
             {

@@ -77,10 +77,10 @@ namespace DotSpatial.Plugins.ShapeEditor
         {
             YieldStyle = (YieldStyles.LeftButton | YieldStyles.RightButton);
             _context = new ContextMenu();
-            _context.MenuItems.Add("Delete", DeleteShape);
+            _context.MenuItems.Add("取消绘制", DeleteShape);
             _finishPart = new MenuItem("Finish Part", FinishPart);
             _context.MenuItems.Add(_finishPart);
-            _context.MenuItems.Add("Finish Shape", FinishShape);
+            _context.MenuItems.Add("结束绘制", FinishShape);
             _parts = new List<List<Coordinate>>();
         }
 
@@ -155,14 +155,14 @@ namespace DotSpatial.Plugins.ShapeEditor
                 FeatureSet fs = new FeatureSet(FeatureType.Line);
                 fs.Features.Add(new Feature(ls));
                 MapLineLayer gll = new MapLineLayer(fs)
-                                       {
-                                           Symbolizer =
+                {
+                    Symbolizer =
                                                {
                                                    ScaleMode = ScaleMode.Symbolic,
                                                    Smoothing = true
                                                },
-                                           MapFrame = Map.MapFrame
-                                       };
+                    MapFrame = Map.MapFrame
+                };
                 _tempLayer = gll;
                 Map.MapFrame.DrawingLayers.Add(gll);
                 Map.MapFrame.Invalidate();
@@ -273,7 +273,7 @@ namespace DotSpatial.Plugins.ShapeEditor
                 invalid.Inflate(20, 20);
                 Map.Invalidate(invalid);
             }
-            
+
             // Begin snapping changes
             _mousePosition = this.isSnapped ? Map.ProjToPixel(snappedCoord) : e.Location;
             DoMouseMoveForSnapDrawing(prevWasSnapped, _mousePosition);
@@ -316,7 +316,7 @@ namespace DotSpatial.Plugins.ShapeEditor
             else
             {
                 if (_coordinates == null) { _coordinates = new List<Coordinate>(); }
-                
+
                 // Begin snapping changes
                 Coordinate snappedCoord = e.GeographicLocation;
                 ComputeSnappedLocation(e, ref snappedCoord);

@@ -1,1 +1,1 @@
-﻿Plugin which adds basic legend control to the DockManager.
+﻿向appManager的DockManager中添加图层管理控件

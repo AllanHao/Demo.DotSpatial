@@ -60,13 +60,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Lib\DotSpatial.Mono.dll</HintPath>
     </Reference>
-    <Reference Include="DotSpatial.Plugins.Ribbon, Version=1.4.25.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="DotSpatial.Plugins.ShapeEditor, Version=1.0.1185.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>Lib\DotSpatial.Plugins.Ribbon.dll</HintPath>
+      <HintPath>..\bin\Debug\Plugins\DotSpatial.Plugins.ShapeEditor\DotSpatial.Plugins.ShapeEditor.dll</HintPath>
     </Reference>
-    <Reference Include="DotSpatial.Plugins.ShapeEditor, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Lib\DotSpatial.Plugins.ShapeEditor.dll</HintPath>
+    <Reference Include="DotSpatial.Plugins.SimpleMap">
+      <HintPath>..\bin\Debug\Plugins\DotSpatial.Plugins.SimpleMap\DotSpatial.Plugins.SimpleMap.dll</HintPath>
     </Reference>
     <Reference Include="DotSpatial.Projections, Version=1.7.0.0, Culture=neutral, PublicKeyToken=272632bddd08a38b, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -170,6 +169,18 @@
     <None Include="Data\L.shx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Data\L1.dbf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\L1.prj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\L1.shp">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\L1.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Data\P.dbf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -186,6 +197,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Data\P.shx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Lib\DotSpatial.Controls.dll.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Lib\DotSpatial.Data.dll.config" />
@@ -219,36 +233,71 @@
     <Content Include="Lib\DevExpress.XtraGrid.v12.2.dll" />
     <Content Include="Lib\DevExpress.XtraLayout.v12.2.dll" />
     <Content Include="Lib\DotSpatial.Analysis.dll" />
-    <Content Include="Lib\DotSpatial.Analysis.pdb" />
+    <Content Include="Lib\DotSpatial.Analysis.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Compatibility.dll" />
-    <Content Include="Lib\DotSpatial.Compatibility.pdb" />
+    <Content Include="Lib\DotSpatial.Compatibility.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Controls.dll" />
-    <Content Include="Lib\DotSpatial.Controls.pdb" />
+    <Content Include="Lib\DotSpatial.Controls.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Data.dll" />
     <Content Include="Lib\DotSpatial.Data.Forms.dll" />
-    <Content Include="Lib\DotSpatial.Data.Forms.pdb" />
-    <Content Include="Lib\DotSpatial.Data.pdb" />
+    <Content Include="Lib\DotSpatial.Data.Forms.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lib\DotSpatial.Data.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Extensions.dll" />
-    <Content Include="Lib\DotSpatial.Extensions.pdb" />
+    <Content Include="Lib\DotSpatial.Extensions.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Modeling.Forms.dll" />
-    <Content Include="Lib\DotSpatial.Modeling.Forms.pdb" />
+    <Content Include="Lib\DotSpatial.Modeling.Forms.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Mono.dll" />
-    <Content Include="Lib\DotSpatial.Mono.pdb" />
+    <Content Include="Lib\DotSpatial.Mono.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Plugins.Ribbon.dll" />
-    <Content Include="Lib\DotSpatial.Plugins.ShapeEditor.dll" />
-    <Content Include="Lib\DotSpatial.Plugins.ShapeEditor.pdb" />
+    <Content Include="Lib\DotSpatial.Positioning.Design.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lib\DotSpatial.Positioning.Forms.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lib\DotSpatial.Positioning.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Projections.dll" />
     <Content Include="Lib\DotSpatial.Projections.Forms.dll" />
-    <Content Include="Lib\DotSpatial.Projections.Forms.pdb" />
-    <Content Include="Lib\DotSpatial.Projections.pdb" />
+    <Content Include="Lib\DotSpatial.Projections.Forms.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lib\DotSpatial.Projections.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Serialization.dll" />
-    <Content Include="Lib\DotSpatial.Serialization.pdb" />
+    <Content Include="Lib\DotSpatial.Serialization.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Symbology.dll" />
     <Content Include="Lib\DotSpatial.Symbology.Forms.dll" />
-    <Content Include="Lib\DotSpatial.Symbology.Forms.pdb" />
-    <Content Include="Lib\DotSpatial.Symbology.pdb" />
+    <Content Include="Lib\DotSpatial.Symbology.Forms.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Lib\DotSpatial.Symbology.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\DotSpatial.Topology.dll" />
-    <Content Include="Lib\DotSpatial.Topology.pdb" />
+    <Content Include="Lib\DotSpatial.Topology.pdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Lib\log4net.dll" />
   </ItemGroup>
   <ItemGroup />

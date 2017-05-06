@@ -61,7 +61,7 @@ namespace DotSpatial.Plugins.ShapeEditor {
         }
         
         /// <summary>
-        ///   查找类似 Add Shape 的本地化字符串。
+        ///   查找类似 绘制对象 的本地化字符串。
         /// </summary>
         internal static string Add_Shape {
             get {
@@ -80,7 +80,7 @@ namespace DotSpatial.Plugins.ShapeEditor {
         }
         
         /// <summary>
-        ///   查找类似 Move Vertex 的本地化字符串。
+        ///   查找类似 编辑节点 的本地化字符串。
         /// </summary>
         internal static string Move_Vertex {
             get {
@@ -89,7 +89,7 @@ namespace DotSpatial.Plugins.ShapeEditor {
         }
         
         /// <summary>
-        ///   查找类似 New 的本地化字符串。
+        ///   查找类似 新增 的本地化字符串。
         /// </summary>
         internal static string New {
             get {
