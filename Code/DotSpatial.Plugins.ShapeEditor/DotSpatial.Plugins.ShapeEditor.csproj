@@ -199,7 +199,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="DotSpatial.Plugins.ShapeEditor.nuspec" />
     <None Include="Resources\NewShape.ico" />
   </ItemGroup>
   <ItemGroup>

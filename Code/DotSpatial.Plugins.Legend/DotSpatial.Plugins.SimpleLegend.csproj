@@ -89,11 +89,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="package.nuspec">
-      <SubType>Designer</SubType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
