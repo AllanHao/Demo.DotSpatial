@@ -78,7 +78,7 @@ namespace DotSpatial.Plugins.ShapeEditor
             YieldStyle = (YieldStyles.LeftButton | YieldStyles.RightButton);
             _context = new ContextMenu();
             _context.MenuItems.Add("取消绘制", DeleteShape);
-            _finishPart = new MenuItem("Finish Part", FinishPart);
+            _finishPart = new MenuItem("结束当前对象", FinishPart);
             _context.MenuItems.Add(_finishPart);
             _context.MenuItems.Add("结束绘制", FinishShape);
             _parts = new List<List<Coordinate>>();
