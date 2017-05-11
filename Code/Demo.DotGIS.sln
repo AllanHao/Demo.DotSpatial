@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DotGIS", "Demo.DotSpatial\Demo.DotGIS.csproj", "{D78133DE-4185-4A5F-A7ED-CB4A4A1104E7}"
 EndProject
@@ -16,8 +16,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotSpatial.Plugins.SimpleMap", "DotSpatial.Plugins.SimpleMap\DotSpatial.Plugins.SimpleMap.csproj", "{632B46F5-E73D-4160-9371-D146FADDE9D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotSpatial.Plugins.SimpleLegend", "DotSpatial.Plugins.Legend\DotSpatial.Plugins.SimpleLegend.csproj", "{D85281B4-6012-42A0-A8F1-B29068A3F433}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotSpatial.Plugins.Ribbon", "DotSpatial.Plugins.Ribbon\DotSpatial.Plugins.Ribbon.csproj", "{97F3BE6D-6D1A-4B52-9226-6A3A4034AD36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +47,6 @@ Global
 		{D85281B4-6012-42A0-A8F1-B29068A3F433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D85281B4-6012-42A0-A8F1-B29068A3F433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D85281B4-6012-42A0-A8F1-B29068A3F433}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97F3BE6D-6D1A-4B52-9226-6A3A4034AD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97F3BE6D-6D1A-4B52-9226-6A3A4034AD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97F3BE6D-6D1A-4B52-9226-6A3A4034AD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97F3BE6D-6D1A-4B52-9226-6A3A4034AD36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +55,5 @@ Global
 		{715F4E59-7362-4EB6-BA2E-3FFC54CBAA41} = {0E5CADB6-941C-4F33-B282-D0AABF32BEC9}
 		{632B46F5-E73D-4160-9371-D146FADDE9D5} = {0E5CADB6-941C-4F33-B282-D0AABF32BEC9}
 		{D85281B4-6012-42A0-A8F1-B29068A3F433} = {0E5CADB6-941C-4F33-B282-D0AABF32BEC9}
-		{97F3BE6D-6D1A-4B52-9226-6A3A4034AD36} = {0E5CADB6-941C-4F33-B282-D0AABF32BEC9}
 	EndGlobalSection
 EndGlobal

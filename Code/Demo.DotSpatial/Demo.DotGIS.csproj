@@ -265,9 +265,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Lib\DotSpatial.Plugins.Ribbon.dll" />
+    <Content Include="Lib\DotSpatial.Positioning.Design.dll" />
     <Content Include="Lib\DotSpatial.Positioning.Design.pdb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Lib\DotSpatial.Positioning.dll" />
+    <Content Include="Lib\DotSpatial.Positioning.Forms.dll" />
     <Content Include="Lib\DotSpatial.Positioning.Forms.pdb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
