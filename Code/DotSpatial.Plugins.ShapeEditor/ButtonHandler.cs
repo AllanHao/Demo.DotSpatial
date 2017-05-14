@@ -123,7 +123,8 @@ namespace DotSpatial.Plugins.ShapeEditor
             _addShape = new SimpleActionItem(ShapeEditorMenuKey, ShapeEditorResources.Add_Shape, AddShapeButton_Click) { GroupCaption = "Shape Editor", SmallImage = ShapeEditorResources.NewShape.ToBitmap(), RootKey = HeaderControl.HomeRootItemKey };
             _Header.Add(_addShape);
             _Header.Add(new SimpleActionItem(ShapeEditorMenuKey, ShapeEditorResources.Move_Vertex, MoveVertexButton_Click) { GroupCaption = "Shape Editor", SmallImage = ShapeEditorResources.move, RootKey = HeaderControl.HomeRootItemKey });
-            _Header.Add(new SimpleActionItem(ShapeEditorMenuKey, ShapeEditorResources.Snapping, SnappingButton_Click) { GroupCaption = "Shape Editor", SmallImage = ShapeEditorResources.SnappingIcon.ToBitmap(), RootKey = HeaderControl.HomeRootItemKey });
+            //zhangh 注掉
+            // _Header.Add(new SimpleActionItem(ShapeEditorMenuKey, ShapeEditorResources.Snapping, SnappingButton_Click) { GroupCaption = "Shape Editor", SmallImage = ShapeEditorResources.SnappingIcon.ToBitmap(), RootKey = HeaderControl.HomeRootItemKey });
         }
 
         private void SnappingButton_Click(object sender, EventArgs E)

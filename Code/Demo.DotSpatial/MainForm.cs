@@ -19,6 +19,7 @@ namespace Demo.DotGIS
         private string shpRName = Application.StartupPath + @"\Data\F_1.shp";
         private string shpLName = Application.StartupPath + @"\Data\L.shp";
         private string shpPName = Application.StartupPath + @"\Data\P.shp";
+        private string projName = Application.StartupPath + @"\Data\map.dspx";
         public MainForm()
         {
             InitializeComponent();
@@ -52,9 +53,8 @@ namespace Demo.DotGIS
         private void MainForm_Load(object sender, EventArgs e)
         {
             //加载Demo数据
-            this.appManager1.Map.AddLayer(shpRName);
-            this.appManager1.Map.AddLayer(shpLName);
-            this.appManager1.Map.AddLayer(shpPName);
+            this.appManager1.SerializationManager.OpenProject(this.projName);
+           // this.appManager1.Map.Invalidate();
             this.OutputLog("加载地图成功");
         }
     }

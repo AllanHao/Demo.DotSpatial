@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-16"?>
+<root type="0">
+  <types>
+    <item key="0" value="System.Object[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="1" value="System.String[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="2" value="DotSpatial.Controls.Map, DotSpatial.Controls, Version=1.9.0.0, Culture=neutral, PublicKeyToken=4d9e49339a7d240c" />
+    <item key="3" value="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="4" value="DotSpatial.Controls.MapFrame, DotSpatial.Controls, Version=1.9.0.0, Culture=neutral, PublicKeyToken=4d9e49339a7d240c" />
+    <item key="5" value="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="6" value="DotSpatial.Data.Extent, DotSpatial.Data, Version=1.9.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d" />
+    <item key="7" value="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="8" value="DotSpatial.Controls.MapLayerCollection, DotSpatial.Controls, Version=1.9.0.0, Culture=neutral, PublicKeyToken=4d9e49339a7d240c" />
+    <item key="9" value="System.Collections.Generic.List`1[[DotSpatial.Symbology.ILayer, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="10" value="DotSpatial.Controls.MapPolygonLayer, DotSpatial.Controls, Version=1.9.0.0, Culture=neutral, PublicKeyToken=4d9e49339a7d240c" />
+    <item key="11" value="DotSpatial.Symbology.PolygonScheme, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="12" value="DotSpatial.Symbology.PolygonCategoryCollection, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="13" value="System.Collections.Generic.List`1[[DotSpatial.Symbology.IPolygonCategory, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="14" value="DotSpatial.Symbology.PolygonCategory, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="15" value="DotSpatial.Symbology.PolygonSymbolizer, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="16" value="DotSpatial.Symbology.LineSymbolizer, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="17" value="DotSpatial.Data.CopyList`1[[DotSpatial.Symbology.IStroke, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], DotSpatial.Data, Version=1.9.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d" />
+    <item key="18" value="System.Collections.Generic.List`1[[DotSpatial.Symbology.IStroke, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="19" value="DotSpatial.Symbology.SimpleStroke, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="20" value="System.Drawing.Color, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <item key="21" value="System.Drawing.Drawing2D.DashStyle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <item key="22" value="System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="23" value="DotSpatial.Symbology.StrokeStyle, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="24" value="DotSpatial.Symbology.ScaleMode, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="25" value="System.Drawing.GraphicsUnit, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <item key="26" value="DotSpatial.Data.CopyList`1[[DotSpatial.Symbology.IPattern, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], DotSpatial.Data, Version=1.9.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d" />
+    <item key="27" value="System.Collections.Generic.List`1[[DotSpatial.Symbology.IPattern, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="28" value="DotSpatial.Symbology.SimplePattern, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="29" value="DotSpatial.Symbology.PatternType, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="30" value="DotSpatial.Data.PolygonShapefile, DotSpatial.Data, Version=1.9.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d" />
+    <item key="31" value="DotSpatial.Symbology.DynamicVisibilityMode, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="32" value="DotSpatial.Controls.MapLineLayer, DotSpatial.Controls, Version=1.9.0.0, Culture=neutral, PublicKeyToken=4d9e49339a7d240c" />
+    <item key="33" value="DotSpatial.Symbology.LineScheme, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="34" value="DotSpatial.Symbology.LineCategoryCollection, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="35" value="System.Collections.Generic.List`1[[DotSpatial.Symbology.ILineCategory, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="36" value="DotSpatial.Symbology.LineCategory, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="37" value="DotSpatial.Symbology.CartographicStroke, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="38" value="System.Drawing.Drawing2D.DashCap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <item key="39" value="DotSpatial.Data.CopyList`1[[DotSpatial.Symbology.ILineDecoration, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], DotSpatial.Data, Version=1.9.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d" />
+    <item key="40" value="System.Collections.Generic.List`1[[DotSpatial.Symbology.ILineDecoration, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="41" value="System.Drawing.Drawing2D.LineCap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <item key="42" value="DotSpatial.Symbology.LineJoinType, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="43" value="DotSpatial.Data.LineShapefile, DotSpatial.Data, Version=1.9.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d" />
+    <item key="44" value="DotSpatial.Controls.MapPointLayer, DotSpatial.Controls, Version=1.9.0.0, Culture=neutral, PublicKeyToken=4d9e49339a7d240c" />
+    <item key="45" value="DotSpatial.Symbology.PointScheme, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="46" value="DotSpatial.Symbology.PointCategoryCollection, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="47" value="System.Collections.Generic.List`1[[DotSpatial.Symbology.IPointCategory, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="48" value="DotSpatial.Symbology.PointCategory, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="49" value="DotSpatial.Symbology.PointSymbolizer, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="50" value="DotSpatial.Data.CopyList`1[[DotSpatial.Symbology.ISymbol, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], DotSpatial.Data, Version=1.9.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d" />
+    <item key="51" value="System.Collections.Generic.List`1[[DotSpatial.Symbology.ISymbol, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <item key="52" value="DotSpatial.Symbology.SimpleSymbol, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="53" value="DotSpatial.Symbology.PointShape, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="54" value="DotSpatial.Symbology.Position2D, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="55" value="DotSpatial.Symbology.Size2D, DotSpatial.Symbology, Version=1.9.0.0, Culture=neutral, PublicKeyToken=6178c08da7998387" />
+    <item key="56" value="DotSpatial.Data.PointShapefile, DotSpatial.Data, Version=1.9.0.0, Culture=neutral, PublicKeyToken=c29dbf30e059ca9d" />
+    <item key="57" value="System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  </types>
+  <item type="1" />
+  <item type="2">
+    <member name="ProjectionEsriString" type="3" value="GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137,298.257223562997]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0],UNIT[&amp;quot;DEGREE&amp;quot;,0.0174532925199]]" />
+    <member name="MapFrame" type="4">
+      <member name="IsLegendGroup" type="5" value="False" />
+      <member name="ExtentsInitialized" type="5" value="True" />
+      <member name="ViewExtents" type="6">
+        <member name="MaxX" type="7" value="113.325993937168" />
+        <member name="MaxY" type="7" value="22.9768427324003" />
+        <member name="MinX" type="7" value="113.321621339633" />
+        <member name="MinY" type="7" value="22.9745888794574" />
+      </member>
+      <member name="ExtendBuffer" type="5" value="False" />
+      <member name="Layers" type="8">
+        <member name="InnerList" type="9">
+          <item type="10">
+            <member name="IsLegendGroup" type="5" value="False" />
+            <member name="Symbology" type="11" id="2">
+              <member name="IsLegendGroup" type="5" value="False" />
+              <member name="Categories" type="12">
+                <member name="InnerList" type="13">
+                  <item type="14">
+                    <member name="IsLegendGroup" type="5" value="False" />
+                    <member name="Symbolizer" type="15">
+                      <member name="IsLegendGroup" type="5" value="False" />
+                      <member name="OutlineSymbolizer" type="16" id="0">
+                        <member name="IsLegendGroup" type="5" value="False" />
+                        <member name="Strokes" type="17">
+                          <member name="InnerList" type="18">
+                            <item type="19">
+                              <member name="Color" type="20" value="#234756" />
+                              <member name="DashStyle" type="21" value="Solid" />
+                              <member name="Opacity" type="22" value="1" />
+                              <member name="Width" type="7" value="1" />
+                              <member name="StrokeStyle" type="23" value="Simple" />
+                            </item>
+                          </member>
+                        </member>
+                        <member name="IsVisible" type="5" value="True" />
+                        <member name="ScaleModes" type="24" value="Simple" />
+                        <member name="Smoothing" type="5" value="True" />
+                        <member name="Units" type="25" value="Pixel" />
+                        <member name="IsExpanded" type="5" value="False" />
+                      </member>
+                      <member name="Patterns" type="26">
+                        <member name="InnerList" type="27">
+                          <item type="28">
+                            <member name="FillColor" type="20" value="#9FC7D8" />
+                            <member name="Opacity" type="22" value="1" />
+                            <member name="Outline" ref="0" />
+                            <member name="PatternType" type="29" value="Gradient" />
+                            <member name="UseOutline" type="5" value="True" />
+                          </item>
+                        </member>
+                      </member>
+                      <member name="IsVisible" type="5" value="True" />
+                      <member name="ScaleModes" type="24" value="Simple" />
+                      <member name="Smoothing" type="5" value="True" />
+                      <member name="Units" type="25" value="Pixel" />
+                      <member name="IsExpanded" type="5" value="False" />
+                    </member>
+                    <member name="SelectionSymbolizer" type="15">
+                      <member name="IsLegendGroup" type="5" value="False" />
+                      <member name="OutlineSymbolizer" type="16" id="1">
+                        <member name="IsLegendGroup" type="5" value="False" />
+                        <member name="Strokes" type="17">
+                          <member name="InnerList" type="18">
+                            <item type="19">
+                              <member name="Color" type="20" value="DarkCyan" />
+                              <member name="DashStyle" type="21" value="Solid" />
+                              <member name="Opacity" type="22" value="1" />
+                              <member name="Width" type="7" value="1" />
+                              <member name="StrokeStyle" type="23" value="Simple" />
+                            </item>
+                          </member>
+                        </member>
+                        <member name="IsVisible" type="5" value="True" />
+                        <member name="ScaleModes" type="24" value="Simple" />
+                        <member name="Smoothing" type="5" value="True" />
+                        <member name="Units" type="25" value="Pixel" />
+                        <member name="IsExpanded" type="5" value="False" />
+                      </member>
+                      <member name="Patterns" type="26">
+                        <member name="InnerList" type="27">
+                          <item type="28">
+                            <member name="FillColor" type="20" value="Cyan" />
+                            <member name="Opacity" type="22" value="1" />
+                            <member name="Outline" ref="1" />
+                            <member name="PatternType" type="29" value="Gradient" />
+                            <member name="UseOutline" type="5" value="True" />
+                          </item>
+                        </member>
+                      </member>
+                      <member name="IsVisible" type="5" value="True" />
+                      <member name="ScaleModes" type="24" value="Simple" />
+                      <member name="Smoothing" type="5" value="True" />
+                      <member name="Units" type="25" value="Pixel" />
+                      <member name="IsExpanded" type="5" value="False" />
+                    </member>
+                    <member name="IsExpanded" type="5" value="False" />
+                  </item>
+                </member>
+                <member name="Scheme" ref="2" arg="0" />
+              </member>
+              <member name="AppearsInLegend" type="5" value="False" />
+              <member name="IsExpanded" type="5" value="False" />
+            </member>
+            <member name="DataSet" type="30" arg="0">
+              <member name="FilePath" type="3" arg="0" value="..\..\bin\Debug\Data\F_1.shp" />
+            </member>
+            <member name="ShowLabels" type="5" value="False" />
+            <member name="DynamicVisibilityWidth" type="7" value="0" />
+            <member name="DynamicVisibilityMode" type="31" value="ZoomedIn" />
+            <member name="UseDynamicVisibility" type="5" value="False" />
+            <member name="IsVisible" type="5" value="True" />
+            <member name="SelectionEnabled" type="5" value="True" />
+            <member name="IsExpanded" type="5" value="True" />
+            <member name="LegendText" type="3" value="F_1" />
+          </item>
+          <item type="32">
+            <member name="IsLegendGroup" type="5" value="False" />
+            <member name="Symbology" type="33">
+              <member name="IsLegendGroup" type="5" value="False" />
+              <member name="Categories" type="34">
+                <member name="InnerList" type="35">
+                  <item type="36">
+                    <member name="IsLegendGroup" type="5" value="False" />
+                    <member name="Symbolizer" type="16">
+                      <member name="IsLegendGroup" type="5" value="False" />
+                      <member name="Strokes" type="17">
+                        <member name="InnerList" type="18">
+                          <item type="19">
+                            <member name="Color" type="20" value="#3D2319" />
+                            <member name="DashStyle" type="21" value="Solid" />
+                            <member name="Opacity" type="22" value="1" />
+                            <member name="Width" type="7" value="1" />
+                            <member name="StrokeStyle" type="23" value="Simple" />
+                          </item>
+                        </member>
+                      </member>
+                      <member name="IsVisible" type="5" value="True" />
+                      <member name="ScaleModes" type="24" value="Simple" />
+                      <member name="Smoothing" type="5" value="True" />
+                      <member name="Units" type="25" value="Pixel" />
+                      <member name="IsExpanded" type="5" value="False" />
+                    </member>
+                    <member name="SelectionSymbolizer" type="16">
+                      <member name="IsLegendGroup" type="5" value="False" />
+                      <member name="Strokes" type="17">
+                        <member name="InnerList" type="18">
+                          <item type="37">
+                            <member name="DashCap" type="38" value="Flat" />
+                            <member name="Decorations" type="39">
+                              <member name="InnerList" type="40" />
+                            </member>
+                            <member name="EndCap" type="41" value="Round" />
+                            <member name="JoinType" type="42" value="Round" />
+                            <member name="LineCap" type="41" value="Round" />
+                            <member name="Offset" type="22" value="0" />
+                            <member name="Color" type="20" value="Cyan" />
+                            <member name="DashStyle" type="21" value="Solid" />
+                            <member name="Opacity" type="22" value="1" />
+                            <member name="Width" type="7" value="1" />
+                            <member name="StrokeStyle" type="23" value="Simple" />
+                          </item>
+                        </member>
+                      </member>
+                      <member name="IsVisible" type="5" value="True" />
+                      <member name="ScaleModes" type="24" value="Simple" />
+                      <member name="Smoothing" type="5" value="True" />
+                      <member name="Units" type="25" value="Pixel" />
+                      <member name="IsExpanded" type="5" value="False" />
+                    </member>
+                    <member name="IsExpanded" type="5" value="False" />
+                  </item>
+                </member>
+              </member>
+              <member name="AppearsInLegend" type="5" value="False" />
+              <member name="IsExpanded" type="5" value="False" />
+            </member>
+            <member name="DataSet" type="43" arg="0">
+              <member name="FilePath" type="3" arg="0" value="..\..\bin\Debug\Data\L.shp" />
+            </member>
+            <member name="ShowLabels" type="5" value="False" />
+            <member name="DynamicVisibilityWidth" type="7" value="0" />
+            <member name="DynamicVisibilityMode" type="31" value="ZoomedIn" />
+            <member name="UseDynamicVisibility" type="5" value="False" />
+            <member name="IsVisible" type="5" value="True" />
+            <member name="SelectionEnabled" type="5" value="True" />
+            <member name="IsExpanded" type="5" value="True" />
+            <member name="LegendText" type="3" value="L" />
+          </item>
+          <item type="44">
+            <member name="IsLegendGroup" type="5" value="False" />
+            <member name="Symbology" type="45">
+              <member name="IsLegendGroup" type="5" value="False" />
+              <member name="Categories" type="46">
+                <member name="InnerList" type="47">
+                  <item type="48">
+                    <member name="IsLegendGroup" type="5" value="False" />
+                    <member name="Symbolizer" type="49">
+                      <member name="IsLegendGroup" type="5" value="False" />
+                      <member name="Symbols" type="50">
+                        <member name="InnerList" type="51">
+                          <item type="52">
+                            <member name="XmlColor" type="3" value="#0F7DBA" />
+                            <member name="Opacity" type="22" value="1" />
+                            <member name="PointShapes" type="53" value="Rectangle" />
+                            <member name="XmlOutlineColor" type="3" value="Black" />
+                            <member name="OutlineOpacity" type="22" value="1" />
+                            <member name="OutlineWidth" type="7" value="1" />
+                            <member name="UseOutline" type="5" value="False" />
+                            <member name="Angle" type="7" value="0" />
+                            <member name="Offset" type="54">
+                              <member name="X" type="7" value="0" />
+                              <member name="Y" type="7" value="0" />
+                            </member>
+                            <member name="Size" type="55">
+                              <member name="Height" type="7" value="4" />
+                              <member name="Width" type="7" value="4" />
+                            </member>
+                          </item>
+                        </member>
+                      </member>
+                      <member name="IsVisible" type="5" value="True" />
+                      <member name="ScaleModes" type="24" value="Symbolic" />
+                      <member name="Smoothing" type="5" value="True" />
+                      <member name="Units" type="25" value="Pixel" />
+                      <member name="IsExpanded" type="5" value="False" />
+                    </member>
+                    <member name="SelectionSymbolizer" type="49">
+                      <member name="IsLegendGroup" type="5" value="False" />
+                      <member name="Symbols" type="50">
+                        <member name="InnerList" type="51">
+                          <item type="52">
+                            <member name="XmlColor" type="3" value="Cyan" />
+                            <member name="Opacity" type="22" value="1" />
+                            <member name="PointShapes" type="53" value="Rectangle" />
+                            <member name="XmlOutlineColor" type="3" value="Black" />
+                            <member name="OutlineOpacity" type="22" value="1" />
+                            <member name="OutlineWidth" type="7" value="1" />
+                            <member name="UseOutline" type="5" value="False" />
+                            <member name="Angle" type="7" value="0" />
+                            <member name="Offset" type="54">
+                              <member name="X" type="7" value="0" />
+                              <member name="Y" type="7" value="0" />
+                            </member>
+                            <member name="Size" type="55">
+                              <member name="Height" type="7" value="4" />
+                              <member name="Width" type="7" value="4" />
+                            </member>
+                          </item>
+                        </member>
+                      </member>
+                      <member name="IsVisible" type="5" value="True" />
+                      <member name="ScaleModes" type="24" value="Symbolic" />
+                      <member name="Smoothing" type="5" value="True" />
+                      <member name="Units" type="25" value="Pixel" />
+                      <member name="IsExpanded" type="5" value="False" />
+                    </member>
+                    <member name="IsExpanded" type="5" value="False" />
+                  </item>
+                </member>
+              </member>
+              <member name="AppearsInLegend" type="5" value="False" />
+              <member name="IsExpanded" type="5" value="False" />
+            </member>
+            <member name="DataSet" type="56" arg="0">
+              <member name="FilePath" type="3" arg="0" value="..\..\bin\Debug\Data\P.shp" />
+            </member>
+            <member name="ShowLabels" type="5" value="False" />
+            <member name="DynamicVisibilityWidth" type="7" value="0" />
+            <member name="DynamicVisibilityMode" type="31" value="ZoomedIn" />
+            <member name="UseDynamicVisibility" type="5" value="False" />
+            <member name="IsVisible" type="5" value="True" />
+            <member name="SelectionEnabled" type="5" value="True" />
+            <member name="IsExpanded" type="5" value="True" />
+            <member name="LegendText" type="3" value="P" />
+          </item>
+        </member>
+      </member>
+      <member name="DynamicVisibilityWidth" type="7" value="0" />
+      <member name="DynamicVisibilityMode" type="31" value="ZoomedIn" />
+      <member name="UseDynamicVisibility" type="5" value="False" />
+      <member name="SelectionEnabled" type="5" value="True" />
+      <member name="IsExpanded" type="5" value="True" />
+      <member name="LegendText" type="3" value="地图图层" />
+    </member>
+    <member name="ZoomOutFartherThanMaxExtent" type="5" value="False" />
+  </item>
+  <item type="57" />
+</root>
